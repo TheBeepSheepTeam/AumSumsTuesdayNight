@@ -260,6 +260,9 @@ class AlleyEngineData
 		if (FlxG.save.data.saveReplays == null)
 			FlxG.save.data.saveReplays = false;
 
+		if (FlxG.save.data.glDebug == null)
+			FlxG.save.data.glDebug = false;	
+
 		if (FlxG.save.data.loadMods == null)
 			FlxG.save.data.loadMods = true;
 
