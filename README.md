@@ -1,5 +1,9 @@
-## **Funkin' In The Alley**
+![aumsum tuesday logo](https://media.discordapp.net/attachments/1104470751752486952/1104893816181358652/Untitled315_20230507151147.png)
+## **AumSum's Tuesday Night**
 hi no leake
+
+
+![oh lookk it aumsum!!!...](https://media.discordapp.net/attachments/1054669319524585482/1061046469735501834/image.png)
 
 
 **I am not responsible for maintaining HTML5 builds, as long as it builds sucessfully, it is not my problem. Feel free to fix it if it's broken yourself.**

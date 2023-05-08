@@ -166,7 +166,7 @@ class Main extends Sprite
 
 		#if FEATURE_DISCORD
 		Discord.DiscordClient.initialize();
-
+		
 		Application.current.onExit.add(function(exitCode)
 		{
 			DiscordClient.shutdown();
@@ -236,10 +236,10 @@ class Main extends Sprite
 		}
 		errMsg += "\nUncaught Error: "
 				  + "Version : "
-				  + '${MainMenuState.kecVer} Error Type: '
+				  + '${MainMenuState.kecVer} Error: '
 				  + e.error
 				  +
-				  "\nWoops! We fucked up somewhere! Report this window here : https://github.com/TheRealJake12/Kade-Engine-Community.git\n\n Why dont you join the discord while you're at it? : https://discord.gg/TKCzG5rVGf \n\n> Crash Handler written by: sqirra-rng";
+				  "\nWhoops, my bad! Report this window here : https://github.com/TheRealJake12/Kade-Engine-Community\n\n Also, why don't you join the discord while you're at it? : https://discord.gg/8TEBmuhfDh \n\n> Crash Handler written by: sqirra-rng";
 		if (!FileSystem.exists("./logs/"))
 			FileSystem.createDirectory("./logs/");
 		File.saveContent(path, errMsg + "\n");

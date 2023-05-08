@@ -30,7 +30,7 @@ using StringTools;
 class MainMenuState extends MusicBeatState
 {
 	public static var nightly:String = "";
-	public static var kecVer:String = "Funkin' In The Alley DEMO";
+	public static var kecVer:String = "AumSum's Tuesday Night DEMO";
 	public static var keVer:String = "Kade Engine 1.8.1";
 	public static var curSelected:Int = 0;
 	public static var freakyPlaying:Bool;
@@ -183,7 +183,7 @@ class MainMenuState extends MusicBeatState
 		logo.antialiasing = FlxG.save.data.antialiasing;
 		logo.updateHitbox();
 
-		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, 'Alley Engine | Funkin In The Alley', 12);
+		var versionShit:FlxText = new FlxText(5, FlxG.height - 18, 0, 'AumSum Engine | KEC 1.7.1 | KE 1.8.1', 12);
 		versionShit.scrollFactor.set();
 		versionShit.setFormat("VCR OSD Mono", 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE_FAST, FlxColor.BLACK);
 		add(versionShit);
@@ -249,13 +249,12 @@ class MainMenuState extends MusicBeatState
 				MusicBeatState.switchState(new TitleState());
 			}
 
-			if (FlxG.keys.justPressed.F7)
+			/*if (FlxG.keys.justPressed.F7)
 			{
 				PlayState.SONG = Song.loadFromJson('salvation', '-hard');
 				PlayState.isStoryMode = false;
-				PlayState.isSM = false;
 				LoadingState.loadAndSwitchState(new PlayState());
-			}
+			}*/
 
 			var shiftMult:Int = 1;
 
@@ -292,7 +291,7 @@ class MainMenuState extends MusicBeatState
 			{
 				if (optionShit[curSelected] == 'discord')
 				{
-					fancyOpenURL("https://discord.gg/TKCzG5rVGf");
+					fancyOpenURL("https://discord.gg/XsmvrHW7c5");
 				}
 				else
 				{
