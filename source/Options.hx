@@ -3008,7 +3008,7 @@ class ResetSettings extends Option
 		FlxG.save.data.saveReplays = null;
 		FlxG.save.data.glDebug = null;
 
-		AlleyEngineData.initSave();
+		AumSumEngineData.initSave();
 		confirm = false;
 		trace('All settings have been reset');
 		display = updateDisplay();

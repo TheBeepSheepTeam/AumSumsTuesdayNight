@@ -4,6 +4,9 @@ export/
 # the vscode folder
 .vscode/
 
+# well its not my problem
+.haxelib/
+
 # bro flashdevelop
 *.hxproj
 fita.hxproj

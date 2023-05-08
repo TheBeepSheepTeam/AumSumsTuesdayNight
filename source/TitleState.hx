@@ -212,6 +212,7 @@ class TitleState extends MusicBeatState
 			transitioning = true;
 			new FlxTimer().start(2, function(tmr:FlxTimer)
 			{
+				/*
 				var http = new haxe.Http("https://raw.githubusercontent.com/TheRealJake12/Kade-Engine-Community/master/version.downloadMe");
 				var returnedData:Array<String> = [];
 
@@ -222,7 +223,7 @@ class TitleState extends MusicBeatState
 					returnedData[1] = data.substring(data.indexOf('-'), data.length);
 					if (!MainMenuState.kecVer.contains(returnedData[0].trim()) && !OutdatedSubState.leftState)
 					{
-						Debug.logTrace('The Latest Github Version Is ' + returnedData[0] + ' While Your Version Is ' + MainMenuState.kecVer);
+						Debug.logTrace('The latest Github version s ' + returnedData[0] + ' while your version Is ' + MainMenuState.kecVer);
 						OutdatedSubState.needVer = returnedData[0];
 						OutdatedSubState.currChanges = returnedData[1];
 						MusicBeatState.switchState(new OutdatedSubState());
@@ -245,6 +246,8 @@ class TitleState extends MusicBeatState
 				}
 
 				http.request();
+				*/
+				MusicBeatState.switchState(new MainMenuState());
 			});
 
 			Ratings.timingWindows = [
@@ -336,11 +339,11 @@ class TitleState extends MusicBeatState
 			case 12:
 				deleteCoolText();
 			case 13:
-				addMoreText('Funkin');
+				addMoreText("It's");
 			case 14:
-				addMoreText('In The');
+				addMoreText('AumSum');
 			case 15:
-				addMoreText('Alley');
+				addMoreText('Time');
 
 			case 16:
 				skipIntro();

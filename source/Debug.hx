@@ -219,7 +219,7 @@ class Debug
 		#end
 		logInfo('HaxeFlixel version: ${Std.string(FlxG.VERSION)}');
 		logInfo('Kade Engine version: ${MainMenuState.keVer}');
-		logInfo('KEC version: ${MainMenuState.kecVer}');
+		logInfo('ASE version: ${MainMenuState.kecVer}');
 	}
 
 	/**

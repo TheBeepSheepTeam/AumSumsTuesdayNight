@@ -3,7 +3,7 @@ import flixel.input.gamepad.FlxGamepad;
 import openfl.Lib;
 import flixel.FlxG;
 
-class AlleyEngineData
+class AumSumEngineData
 {
 	public static function initSave()
 	{

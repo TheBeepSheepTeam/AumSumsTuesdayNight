@@ -49,11 +49,15 @@ class MainMenuState extends MusicBeatState
 	public static var textArray:Array<String> = [
 		"500+  Giftcards! (-KookerFoxYT)",
 		"bro became starfire from teen titans go (-Monomouse)",
+		"Hi (-ScriptedMar)",
 		"YOUR ARGUMENT, IS NOW INVALID! (-Monomouse)",
 		"south park refernc!!!11 (-Maicon)",
+		"bro recreated vr songs smh (-Cearense Hueboi)",
+		"He's never gonna get it. (-Mars from Unusual Planets)",
+		"aumfriend (-Digital Hourglass)",
 		"JHJJTLKGFD WHY IS MILKY SO LOUD IN THE EXPORT (-CHS)",
 		#if web
-		"You're on web. Why the FUCK are you on web. You can't get even decent easter eggs, bitch."
+		"You're on web. Why the FUCK are you on web? You can't get even decent easter eggs, bitch."
 		#end
 	];
 
