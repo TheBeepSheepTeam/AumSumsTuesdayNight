@@ -1,0 +1,37 @@
+{
+  "name": "AumSum",
+  "asset": "characters/aumsum",
+  "barColor": "#AF66CE",
+  "startingAnim": "idle",
+  "holdLength": 6.1,
+  "scale": 1.2,
+  "camPos": [150, -100],
+  "healthicon" : "aumsum",
+  "animations": [
+    {
+      "name": "idle",
+      "prefix": "aumsum newest idle",
+      "offsets": [0, 0]
+    },
+    {
+      "name": "singUP",
+      "prefix": "aumsum newest up",
+      "offsets": [106, 14]
+    },
+    {
+      "name": "singLEFT",
+      "prefix": "aumsum newest left",
+      "offsets": [84, 0]
+    },
+    {
+      "name": "singRIGHT",
+      "prefix": "aumsum newest right",
+      "offsets": [31, 0]
+    },
+    {
+      "name": "singDOWN",
+      "prefix": "aumsum newest down",
+      "offsets": [11, -25]
+    }
+  ]
+}
